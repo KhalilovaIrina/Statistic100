@@ -18,7 +18,7 @@ public class StatisticsServiceTest {
     }
 
     @Test
-    public void findMaxIfEqual() {
+    public void findMaxNext() {
         StatisticsService service = new StatisticsService();
 
         long[] incomesInBillions = {10, 5, 8, 4, 5, 3, 8, 6, 11, 11, 12};
